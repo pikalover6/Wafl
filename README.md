@@ -17,7 +17,7 @@ Let it do  it's work, and after its done wine will be installed on your system.
 
 Questions:
 
-Q: I dont't know how to open a root terminal.
+Q: I don't know how to open a root terminal.
 A: Open a terminal windows, type sudo su and enter your password. You are now in a root terminal.
 
 Q: Is this actually a one-click installer?
