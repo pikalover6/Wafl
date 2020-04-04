@@ -14,3 +14,11 @@ sudo apt install wget && wget https://github.com/pikalover6/Wafl/archive/master.
 When you are ready to use run cd Wafl-master && sh install.sh
 
 Let it do  it's work, and after its done wine will be installed on your system.
+
+Questions:
+
+Q: I dont't know how to open a root terminal.
+A: Open a terminal windows, type sudo su and enter your password. You are now in a root terminal.
+
+Q: Is this actually a one-click installer.
+A: Well, technically it's a zero-click installer. No clicks are required to run terminal commands!
