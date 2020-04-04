@@ -7,7 +7,7 @@ sudo apt-key add winehq.key
 CODENAME=$(lsb_release --codename | cut -f2)
 print 'Codename found: '$CODENAME.
 echo 'Adding repositories...'
-sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ '$CODENAME' main'
+sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/'$CODENAME' main'
 echo 'Updating...'
 sudo apt update
 echo 'Installing package winehq-stable.' 
