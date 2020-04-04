@@ -4,11 +4,9 @@ echo 'This script will install the latest version of wine to allow you to instal
 sudo dpkg --add-architecture i386 
 wget -nc https://dl.winehq.org/wine-builds/winehq.key
 sudo apt-key add winehq.key
+CODENAME=lsb_release --codename | cut -f2
 echo 'Adding repositories...'
-sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ xenial main'
-sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main'
-sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ eoan main'
-sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ disco main'
+sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/' + $CODENAME + ' main'
 echo 'Updating...'
 sudo apt update
 echo 'Installing package winehq-stable.'
