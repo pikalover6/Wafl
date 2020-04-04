@@ -4,3 +4,5 @@ A one-click installer for wine, to run windows applications on Linux Ubuntu or M
 
 ### For instructions and troubleshooting, see our wiki:
 <a href="https://github.com/pikalover6/Wafl/wiki"> Wiki
+  
+#### Thanks a ton to the team at winehq.org for making Wafl possible!
