@@ -7,7 +7,7 @@ sudo apt install wget && wget https://github.com/pikalover6/Wafl/archive/master.
 
 This will download and run wafl.
 
-If you would like to run it and not have install wine, run:
+If you would like to download it and not have install wine, run:
 
 sudo apt install wget && wget https://github.com/pikalover6/Wafl/archive/master.zip && unzip master.zip
 
